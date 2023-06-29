@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont{
+    padding: 10px 0 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: auto;
+}
+
+.menu{
+    font-size: 1.5rem;
+    padding: 10px 0 20px 0;
+    margin-bottom: 25px;
+    background-color: #04AA6D;
+}
+
+.menu p {
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+
+.menu input{
+    font-size: 1rem;
+    padding: 0.35rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+}
+
+.wyszukiwarka{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+
+.dane {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.dane td, .dane th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.dane tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+.dane tr:hover {
+    background-color: #ddd;
+}
+  
+.dane th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.menu-edit{
+    position: fixed;
+    width: 200px;
+    height: 400px;
+    right: 0;
+    margin: 0 40px 0 0;
+    top: 1;
+    background-color:#04AA6D;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.menu-edit p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.menu-edit input{
+    padding: 10px;
+}
+
